@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FullStack-разработчик Д. Алексеев</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<div class="popup-callback">
+			<div class="popup-callback-form">
+				<form method="get">
+					<p class="popup-calback-form__text text-center">
+						Укажите свой телефон и&nbsp;я&nbsp;свяжусь с&nbsp;Вами в&nbsp;удобное время.
+					</p>
+					<input type="text" maxlength="30" class="popup-callback-form__field popup-callback-form__field_name" placeholder="Имя">
+					<input type="tel" id="tel" maxlength="11" class="popup-callback-form__field popup-callback-form__field_tel" placeholder="Телефон">
+					<button class="button popup-button" type="submit">Заказать звонок</button>
+				</form>
+			</div>
+		</div>
+		<div class="popup-callback_other">
+			<div class="popup-callback-form popup-callback-form_other">
+				<form method="get">
+					<p class="popup-calback-form__text text-center">
+						Напишите интересующий Вас вопрос и&nbsp;вы&nbsp;тут&nbsp;же получите ответ на&nbsp;почту!
+					</p>
+					<input type="text" maxlength="30" class="popup-callback-form__field popup-callback-form__field_name" placeholder="Имя">
+					<input type="email" maxlength="40" class="popup-callback-form__field popup-callback-form__field_email" placeholder="Email">
+					<textarea class="popup-callback-form__msg"></textarea>
+					<button class="button popup-button" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div class="container">
+			<div class="flying-el">
+				<div class="flying-el__brackets">{ }</div>
+				<div class="flying-el__hashtag">#</div>
+				<div class="flying-el__slash">&lt;/&gt;</div>
+				<div class="flying-el__div flying-el__div_size_s">&lt;div&gt;</div>
+				<div class="flying-el__div flying-el__div_size_m">&lt;div&gt;</div>
+			</div>
+			<div class="row navigation-bar">
+				<div class="col-lg-5 col-md-3 col-2">
+					<div class="popup-menu d-block d-lg-none">
+						<i class="fa fa-bars"></i>
+					</div>
+					<nav>
+						<ul class="menu d-lg-block d-none">
+							<li class="menu-item">
+								<a href="#service" class="menu-item__link">Услуги</a>
+							</li>
+							<li class="menu-item">
+								<a href="#examples" class="menu-item__link">Портфолио</a>
+							</li>
+							<li class="menu-item">
+								<a href="#price" class="menu-item__link">Стоимость</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-7 col-md-9 col-8">
+					<div class="call-back d-flex justify-content-md-end justify-content-center">
+						<a href="tel:+74999955577" class="call-back__number">
+							+7 (499) 995-55-77
+						</a>
+						<div class="call-back__button d-none d-md-block">
+							Заказать звонок
+						</div>
+					</div>
+				</div>
+				<div class="col-2 d-block d-md-none">
+					<div class="call-back__icon">
+						<i class="fa fa-phone"></i>
+					</div>
+				</div>
+				<div class="col-12 text-center popup-nav">
+					<nav>
+						<ul class="menu">
+							<li class="menu-item">
+								<a href="#service" class="menu-item__link">Услуги</a>
+							</li>
+							<li class="menu-item">
+								<a href="#examples" class="menu-item__link">Портфолио</a>
+							</li>
+							<li class="menu-item">
+								<a href="#price" class="menu-item__link">Стоимость</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row first-screen d-none d-md-block">
+				<div class="col-lg-9 col-md-8">
+					<div class="title">
+						<h1>
+							Дмитрий Алексеев
+						</h1>
+					</div>
+					<div class="title__text">
+						FullStack разработчик
+					</div>
+					<div class="title__button button">
+						Узнать больше
+					</div>
+				</div>
+			</div>
+			<div class="row svg-bg">
+				<div class="col-lg-3 col-md-4">
+					<div class="photo"></div>
+					<svg width="1800" height="1600" xmlns="http://www.w3.org/2000/svg">
+						<defs>
+							<linearGradient spreadMethod="pad" id="gradient" x1="0%" y1="70%" x2="70%" y2="0%">
+							<stop offset="0%" style="stop-color:rgb(255, 138, 93);stop-opacity:1;" />
+							<stop offset="100%" style="stop-color:rgb(255, 47, 150);stop-opacity:1;" />
+							</linearGradient>
+						</defs>
+	 					 <path d="M 350 1400 C 50 1300 200 1000 300 700 Q 400 450 500 350 Q 850 0 1250 350 Q 1450 550 1550 800 C 1600 1050 1750 1300 1450 1400 Z" stroke="none" fill="url(#gradient)"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div class="row d-block d-md-none text-center">
+				<div class="col-12">
+					<div class="title">
+						<h1>
+							Дмитрий Алексеев
+						</h1>
+					</div>
+					<div class="title__text">
+						FullStack разработчик
+					</div>
+					<div class="title__button button">
+						Узнать больше
+					</div>
+				</div>
+			</div>
+	</header>
+	<main>
+		<section id="service">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="title-service">
+							Что я делаю
+						</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center services-list">
+					<div class="col-lg-3 col-md-5 service-item">
+						<div class="service-item__logo"></div>
+						<div class="service-item__text text-center">
+							Вёрстка лендинг–страниц<br>
+							и сайтов любой сложности
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-5 service-item">
+						<div class="service-item__logo"></div>
+						<div class="service-item__text text-center">
+							Адаптивная вёрстка под все<br>
+							браузеры и устройства
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-5 service-item">
+						<div class="service-item__logo"></div>
+						<div class="service-item__text text-center">
+							Frontend–разработка<br>
+							и программирование
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-5 service-item">
+						<div class="service-item__logo"></div>
+						<div class="service-item__text text-center">
+							Исправление и доработка<br>
+							существующей вёрстки
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="service-button button">Узнать стоимость</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="examples">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="examples-title">
+							Примеры моих работ
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="arrow arrow_left d-lg-block d-none"></div>
+						<div class="arrow arrow_right d-lg-block d-none"></div>
+						<div class="slick">
+							<div class="slick-list">
+								<div class="slick-item">
+									<a href="https://russkij-metall.ru/" target="_blank"><div class="slick-item__photo slick-item__photo_psy"></div>
+									<p class="slick-item__text">
+										Сайт Русский металл
+									</p>
+									</a>
+								</div>
+							</div>
+							<div class="slick-list">
+								<div class="slick-item">
+									<div class="slick-item__photo slick-item__photo_children"></div>
+									<p class="slick-item__text">
+										Сайт магазина детской одежды
+									</p>
+								</div>
+							</div>
+							<div class="slick-list">
+								<div class="slick-item">
+									<div class="slick-item__photo slick-item__photo_fish"></div>
+									<p class="slick-item__text">
+										Сайт магазина «Рыболов»
+									</p>
+								</div>
+							</div>
+							<div class="slick-list">			
+								<div class="slick-item">
+									<a href="http://asyatabolina.ru" target="_blank"><div class="slick-item__photo slick-item__photo_psy"></div>
+									<p class="slick-item__text">
+										Сайт психолога А. Таболиной
+									</p>
+									</a>
+								</div>
+							</div>
+							<div class="slick-list">			
+								<div class="slick-item">
+									<div class="slick-item__photo slick-item__photo_children"></div>
+									<p class="slick-item__text">
+										Сайт магазина детской одежды
+									</p>
+								</div>
+							</div>
+							<div class="slick-list">
+								<div class="slick-item">
+									<div class="slick-item__photo slick-item__photo_fish"></div>
+									<p class="slick-item__text">
+										Сайт магазина «Рыболов»
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="button example-button">
+							Заказать проект
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<section id="price">
+		<div class="container">
+			<div class="flying-el-service">
+				<div class="flying-el-service__brackets">
+					{ }
+				</div>
+				<div class="flying-el-service__hashtag">
+					#
+				</div>
+				<div class="flying-el-service__div">
+					&lt;div&gt;
+				</div>
+				<div class="flying-el-service__slash">
+					&lt;/&gt;
+				</div>
+				<div class="flying-el-service__brackets">
+					{ }
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="price-block">
+						<h3 class="price-block__title">
+							Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*
+						</h3>
+						<p class="price-block__text">
+							Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, <br>
+   							в зависимости от сложности задач.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row footer-block justify-content-lg-between">
+				<div class="col-lg-2 col-md-2 col-12">
+					<nav>
+						<ul class="menu menu_footer">
+							<li class="menu-item menu-item_footer">
+								<a href="#service" class="menu-item__link_footer">Услуги</a>
+							</li>
+							<li class="menu-item menu-item_footer">
+								<a href="#examples" class="menu-item__link_footer">Портфолио</a>
+							</li>
+							<li class="menu-item menu-item_footer">
+								<a href="#price" class="menu-item__link_footer">Стоимость</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-4 col-md-4 offset-md-2 col-12">
+					<div class="footer-contact">
+						<i class="fa fa-phone footer-contact__icon_tel"></i>
+						<p class="footer-contact__tel">
+							+7 (499) 995-77-55
+						</p>
+						<i class="fa fa-envelope footer-contact__icon_email"></i>
+						<p class="footer-contact__email">
+							dmitry@alekseev.com
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12">
+					<div class="call-back call-back_footer">
+						<div class="call-back__button call-back__button_footer">
+							Заказать звонок
+						</div>
+					</div>
+					<div class="social-block">
+						<a href="https://vk.com/urban91z" target="_blank" class="social-block__link">
+							<div class="social-block__item social-block__item_vk"></div>
+						</a>
+						<a href="https://www.facebook.com/urbanz91" target="_blank" class="social-block__link">
+							<div class="social-block__item social-block__item_fb"></div>
+						</a>
+						<a href="https://twitter.com/urbanyk" target="_blank" class="social-block__link">
+							<div class="social-block__item social-block__item_tw"></div>
+						</a>
+						<a href="https://www.instagram.com/urbanz.91/" target="_blank" class="social-block__link">
+							<div class="social-block__item social-block__item_inst"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="footer-bar__text text-center">
+							© Дмитрий Алексеев, 2016 – 2018
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
